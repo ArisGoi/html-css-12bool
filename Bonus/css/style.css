@@ -1,0 +1,33 @@
+.row [class^="col-"]{
+    padding: 15px;
+    min-height: 40px;
+
+    background-color: #2E4CF5;
+    /* border: 2px solid greenyellow; */
+    color: white;
+    text-align: center;
+}
+
+[class^="col-"].nested{
+    background-color: lime;
+    border: 1px solid #2E4CF5;
+    color: #2E4CF5;
+    font-weight: bolder;
+}
+
+a{
+    color: lime;
+}
+
+nav{
+    border-bottom: 5px solid orange;
+}
+nav, .bottom-nav{
+    background-color: navy;
+}
+
+.hero{
+    background-color: grey;
+    min-height: 200px;
+    padding-top: 70px;
+}
