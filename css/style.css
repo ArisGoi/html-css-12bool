@@ -1,5 +1,16 @@
 .row [class^="col-"]{
-    background-color: #009CF5;
     padding: 15px;
     min-height: 40px;
+
+    background-color: #2E4CF5;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+
+[class^="col-"].nested{
+    background-color: lime;
+    border: 1px solid #2E4CF5;
+    color: #2E4CF5;
+    font-weight: bolder;
 }

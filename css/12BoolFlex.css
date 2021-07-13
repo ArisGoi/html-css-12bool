@@ -7,8 +7,9 @@
 
 /* Framework */
 .container{
-    max-width: 1200px;
-    margin: 0 auto;
+    /* max-width: 1200px; */
+    width: 100%;
+    margin: 0 auto 20px auto;
 }
 .row{
     display: flex;
@@ -16,6 +17,10 @@
 }
 
 /* Columns */
+.col-grow{
+    flex-grow: 1;
+}
+
 .col-xs-1{
     flex-basis: calc((100% / 12) * 1);
 }
